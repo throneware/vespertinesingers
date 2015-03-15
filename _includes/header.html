@@ -1,0 +1,31 @@
+<header class="site-header">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+		        <li><a class="page-link" href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+				<li><a class="page-link" href="{{ '/categories/news' | prepend: site.baseurl }}">News</a></li>
+				<li><a class="page-link" href="{{ '/categories/performances' | prepend: site.baseurl }}">Performances</a></li>
+				<!-- <li><a class="page-link" href="{{ 'about.html' | prepend: site.baseurl }}">Gallery</a></li> -->
+				<li><a class="page-link" href="{{ '/audio' | prepend: site.baseurl }}">Audio</a></li>
+				<li><a class="page-link" href="{{ '/contact' | prepend: site.baseurl }}">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class='navbar-header-padding'></div>
+</header>
